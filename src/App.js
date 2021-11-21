@@ -74,8 +74,13 @@ const App = () => {
           <Route
             path={`${process.env.PUBLIC_URL + "/"}`}
             exact
-            component={Splash}
+            component={Corporate}
           />
+          {/* <Route
+            path={`${process.env.PUBLIC_URL + "/"}`}
+            exact
+            component={Splash}
+          /> */}
           <Route
             path={`${process.env.PUBLIC_URL + "/business-consulting"}`}
             exact
@@ -86,11 +91,7 @@ const App = () => {
             exact
             component={BusinessConsulting2}
           />
-          <Route
-            path={`${process.env.PUBLIC_URL + "/corporate"}`}
-            exact
-            component={Corporate}
-          />
+
           <Route
             path={`${process.env.PUBLIC_URL + "/business"}`}
             exact
