@@ -87,7 +87,7 @@ const Corporate = () => {
                   radiusRounded=""
                   subtitle="What we can do for you"
                   title="Services provide for you."
-                  description="There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
+                  description=""
                 />
               </div>
             </div>
@@ -110,7 +110,7 @@ const Corporate = () => {
                   radiusRounded=""
                   subtitle="Timeline"
                   title="Working Process."
-                  description="We help our clients succeed by creating brand identities, <br /> digital experiences, and print materials."
+                  description="We help our clients succeed by creating brand identities and digital experiences."
                 />
               </div>
             </div>
@@ -148,8 +148,8 @@ const Corporate = () => {
         </div>
         {/* End Elements Area  */}
 
+        {/* Start Elements Area  
         <Separator />
-        {/* Start Elements Area  */}
         <div className="rwt-team-area rn-section-gap">
           <div className="container">
             <div className="row">
@@ -168,7 +168,7 @@ const Corporate = () => {
               teamStyle="team-style-default"
             />
           </div>
-        </div>
+        </div> */}
         {/* End Elements Area  */}
 
         <Separator />

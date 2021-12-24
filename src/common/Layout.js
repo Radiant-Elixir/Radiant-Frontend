@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
           HeaderSTyle="header-not-transparent"
         />
         {children}
-        <FooterTwo />
+        {/* <FooterTwo /> */}
         <Copyright />
       </main>
     </>

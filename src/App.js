@@ -3,23 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import PageScrollTop from "./components/pageToTop/PageScrollTop";
 
 // Pages import Here
-import Splash from "./pages/Splash";
-import HomeDefault from "./pages/HomeDefault";
-import BusinessConsulting2 from "./pages/BusinessConsulting2";
 import Corporate from "./pages/Corporate";
-import Business from "./pages/Business";
-import DigitalAgency from "./pages/DigitalAgency";
-import Finance from "./pages/Finance";
-import Company from "./pages/Company";
-import Marketing from "./pages/Marketing";
-import TravelAgency from "./pages/TravelAgency";
-import Consulting from "./pages/Consulting";
-import SeoAgency from "./pages/SeoAgency";
-import PersonalPortfolio from "./pages/PersonalPortfolio";
-import EventConference from "./pages/EventConference";
-import CreativePortfolio from "./pages/CreativePortfolio";
-import Freelancer from "./pages/Freelancer";
-import InternationalConsulting from "./pages/InternationalConsulting";
 
 import CategoryList from "./pages/CategoryList";
 import TagList from "./pages/TagList";
@@ -81,82 +65,6 @@ const App = () => {
             exact
             component={Splash}
           /> */}
-          <Route
-            path={`${process.env.PUBLIC_URL + "/business-consulting"}`}
-            exact
-            component={HomeDefault}
-          />
-          <Route
-            path={`${process.env.PUBLIC_URL + "/business-consulting-2"}`}
-            exact
-            component={BusinessConsulting2}
-          />
-
-          <Route
-            path={`${process.env.PUBLIC_URL + "/business"}`}
-            exact
-            component={Business}
-          />
-          <Route
-            path={`${process.env.PUBLIC_URL + "/digital-agency"}`}
-            exact
-            component={DigitalAgency}
-          />
-          <Route
-            path={`${process.env.PUBLIC_URL + "/finance"}`}
-            exact
-            component={Finance}
-          />
-          <Route
-            path={`${process.env.PUBLIC_URL + "/company"}`}
-            exact
-            component={Company}
-          />
-          <Route
-            path={`${process.env.PUBLIC_URL + "/marketing"}`}
-            exact
-            component={Marketing}
-          />
-          <Route
-            path={`${process.env.PUBLIC_URL + "/travel-agency"}`}
-            exact
-            component={TravelAgency}
-          />
-          <Route
-            path={`${process.env.PUBLIC_URL + "/consulting"}`}
-            exact
-            component={Consulting}
-          />
-          <Route
-            path={`${process.env.PUBLIC_URL + "/seo-agency"}`}
-            exact
-            component={SeoAgency}
-          />
-          <Route
-            path={`${process.env.PUBLIC_URL + "/personal-portfolio"}`}
-            exact
-            component={PersonalPortfolio}
-          />
-          <Route
-            path={`${process.env.PUBLIC_URL + "/event-conference"}`}
-            exact
-            component={EventConference}
-          />
-          <Route
-            path={`${process.env.PUBLIC_URL + "/creative-portfolio"}`}
-            exact
-            component={CreativePortfolio}
-          />
-          <Route
-            path={`${process.env.PUBLIC_URL + "/freelancer"}`}
-            exact
-            component={Freelancer}
-          />
-          <Route
-            path={`${process.env.PUBLIC_URL + "/international-consulting"}`}
-            exact
-            component={InternationalConsulting}
-          />
 
           {/* Blog Part  */}
           <Route
