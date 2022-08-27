@@ -19,8 +19,8 @@ const CalltoActionSeven = () => {
             <div className="inner">
               <div className="content text-left">
                 <Logo
-                  image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
-                  image2={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
+                  image={`/images/logo/logo.png`}
+                  image2={`/images/logo/logo.png`}
                 />
                 <ScrollAnimation
                   animateIn="fadeInUp"

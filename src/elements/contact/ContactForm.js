@@ -9,15 +9,14 @@ const Result = () => {
 
 function ContactForm({props , formStyle}) {
     const [ result,showresult ] = useState(false);
-
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs
         .sendForm(
-            'service_p4x3hv8', 
-            'template_jgfr42f', 
+            "service_nemsjoa", 
+            "template_qa7zcmh", 
             e.target, 
-            'user_jrfTH2e0Ely35ZCVFdT9S'
+            "u8Fl63Mu5Eya33kQ7"
         )
         .then((result) => {
             console.log(result.text);
@@ -39,7 +38,7 @@ function ContactForm({props , formStyle}) {
             <div className="form-group">
                 <input 
                 type="text"
-                name="fullname"
+                name="name"
                 placeholder="Your Name"
                 required
                 />
