@@ -26,7 +26,7 @@ const FooterOne = () => {
                   <div className="logo">
                     <Logo
                       image={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
-                      image2={`${process.env.PUBLIC_URL}/images/logo/logo-dark.png`}
+                      image2={`${process.env.PUBLIC_URL}/images/logo/logo.png`}
                     />
                   </div>
                   <h3 className="text-big">{footerIntem.title}</h3>
