@@ -37,7 +37,7 @@ const CalltoActionFive = () => {
                   animateOnce={true}
                 >
                   <div className="call-to-btn text-center">
-                    <a className="btn-default btn-icon" href="#">
+                    <a className="btn-default btn-icon" href="/contact#form">
                       {callToActionData.btnText}{" "}
                       <i className="icon">
                         <FiArrowRight />

@@ -16,7 +16,7 @@ const Contact = () => {
           parentUrl="Home"
           currentUrl="Contact"
         />
-        <div className="main-content">
+        <div className="main-content" id="contact">
           {/* Start Contact Area  */}
           <div className="rwt-contact-area rn-section-gap">
             <div className="container">
