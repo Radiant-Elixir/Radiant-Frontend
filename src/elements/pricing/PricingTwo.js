@@ -93,32 +93,28 @@ const PricingTwo = () => {
         <div className="rn-pricing style-2">
           <div className="pricing-table-inner">
             <div className="pricing-header">
-              <h4 className="title">Fleet Management</h4>
+              <h4 className="title">Custom Application / Website</h4>
               <div className="pricing">
                 <div className="price-wrapper">
                   <span className="currency">Rs</span>
-                  <span className="price">5,000</span>
+                  <span className="price">25,000</span>
                 </div>
-                <span className="subtitle">Per Vehicle</span>
+                <span className="subtitle">Starting from</span>
               </div>
             </div>
             <div className="pricing-body">
               <ul className="list-style--1">
                 <li>
-                  <FiCheck />
-                  RealTime Vehicle Tracking
+                  <FiCheck /> Web & Mobile
                 </li>
                 <li>
-                  <FiCheck /> Fuel Monitoring
+                  <FiCheck /> Best Usability & Experience
                 </li>
                 <li>
-                  <FiCheck /> Engine On/Off
+                  <FiCheck /> Performant & Secure
                 </li>
                 <li>
-                  <FiCheck /> Alarm System
-                </li>
-                <li>
-                  <FiCheck /> Door Triggers
+                  <FiCheck /> Stand out apps
                 </li>
               </ul>
             </div>
