@@ -38,12 +38,12 @@ const CalltoActionFive = () => {
                   animateOnce={true}
                 >
                   <div className="call-to-btn text-center">
-                    <Link className="btn-default btn-icon" to="/contact">
+                    <a className="btn-default btn-icon" href="/contact#form">
                       {callToActionData.btnText}{" "}
                       <i className="icon">
                         <FiArrowRight />
                       </i>
-                    </Link>
+                    </a>
                   </div>
                 </ScrollAnimation>
               </div>

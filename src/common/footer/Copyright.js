@@ -1,6 +1,13 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 
 const Copyright = () => {
+  const location = useLocation();
+  if (location?.pathname) {
+    if (!location?.pathname?.split("/").includes("contact")) {
+      localStorage.removeItem("subject");
+    }
+  }
   return (
     <div className="copyright-area copyright-style-one">
       <div className="container">

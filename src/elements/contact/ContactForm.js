@@ -33,6 +33,8 @@ function ContactForm({props , formStyle}) {
         showresult(false);
     }, 5000);
 
+    let subject = localStorage.getItem("subject");
+
     return (
         <form className={`${formStyle}`} action="" onSubmit={sendEmail}>
             <div className="form-group">
@@ -68,6 +70,7 @@ function ContactForm({props , formStyle}) {
                 type="text"
                 name="subject"
                 placeholder="Subject"
+                value={subject ?? ""}
                 required
                 />
             </div>

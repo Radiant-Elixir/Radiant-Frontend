@@ -1,5 +1,6 @@
 import React from "react";
 import { FiCheck } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const PricingTwo = () => {
   return (
@@ -35,8 +36,14 @@ const PricingTwo = () => {
               </ul>
             </div>
             <div className="pricing-footer">
-              <a className="btn-default" href="#pricing">
-                Inquire Now
+              <a
+                href="/contact"
+                className="btn-default"
+                onClick={() =>
+                  localStorage.setItem("subject", "Inventory Management System")
+                }
+              >
+                Inquire Now{" "}
               </a>
             </div>
           </div>
@@ -79,8 +86,14 @@ const PricingTwo = () => {
               </ul>
             </div>
             <div className="pricing-footer">
-              <a className="btn-default" href="#pricing">
-                Inquire Now
+              <a
+                href="/contact"
+                className="btn-default"
+                onClick={() =>
+                  localStorage.setItem("subject", "School Management System")
+                }
+              >
+                Inquire Now{" "}
               </a>
             </div>
           </div>
@@ -119,9 +132,14 @@ const PricingTwo = () => {
               </ul>
             </div>
             <div className="pricing-footer">
-              <a className="btn-default" href="#pricing">
-                Inquire Now
-              </a>
+              <Link to="/contact"
+                className="btn-default"
+                onClick={() =>
+                  localStorage.setItem("subject", "Fleet Management")
+                }
+              >
+                Inquire Now{" "}
+              </Link>
             </div>
           </div>
         </div>
