@@ -36,15 +36,18 @@ const PricingTwo = () => {
               </ul>
             </div>
             <div className="pricing-footer">
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className="btn-default"
                 onClick={() =>
-                  localStorage.setItem("subject", "Inventory Management System")
+                  localStorage.setItem(
+                    "subject",
+                    "Re: Inventory Management System"
+                  )
                 }
               >
                 Inquire Now{" "}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -86,15 +89,18 @@ const PricingTwo = () => {
               </ul>
             </div>
             <div className="pricing-footer">
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className="btn-default"
                 onClick={() =>
-                  localStorage.setItem("subject", "School Management System")
+                  localStorage.setItem(
+                    "subject",
+                    "Re: School Management System"
+                  )
                 }
               >
                 Inquire Now{" "}
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -132,10 +138,11 @@ const PricingTwo = () => {
               </ul>
             </div>
             <div className="pricing-footer">
-              <Link to="/contact"
+              <Link
+                to="/contact"
                 className="btn-default"
                 onClick={() =>
-                  localStorage.setItem("subject", "Fleet Management")
+                  localStorage.setItem("subject", "Re: Application Development")
                 }
               >
                 Inquire Now{" "}
