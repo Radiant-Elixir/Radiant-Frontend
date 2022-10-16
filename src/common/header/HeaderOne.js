@@ -3,7 +3,6 @@ import { FiMenu } from "react-icons/fi";
 import Logo from "../../elements/logo/Logo";
 import Nav from "./Nav";
 import MobileMenu from "./MobileMenu";
-import Darkmode from "./Darkmode";
 import useStickyHeader from "./useStickyHeader";
 
 const HeaderOne = ({ btnStyle, HeaderSTyle }) => {
@@ -54,7 +53,6 @@ const HeaderOne = ({ btnStyle, HeaderSTyle }) => {
                     </button>
                   </div>
                 </div>
-                {/* <Darkmode /> */}
               </div>
             </div>
           </div>

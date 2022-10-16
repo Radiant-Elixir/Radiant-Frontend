@@ -208,7 +208,7 @@ const HomeDefault = () => {
         </div>
         {/* End Elements Area  */}
 
-        <FooterOne />
+        {/* <FooterOne /> */}
         <Copyright />
       </main>
     </>

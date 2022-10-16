@@ -199,7 +199,7 @@ const Corporate = () => {
         </div>
         {/* End Call To Action Area  */}
 
-        <FooterOne />
+        {/* <FooterOne /> */}
         <Copyright />
       </main>
     </>
