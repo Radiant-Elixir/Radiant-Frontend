@@ -53,6 +53,7 @@ const HeaderOne = ({ btnStyle, HeaderSTyle }) => {
                     </button>
                   </div>
                 </div>
+                {/* <Darkmode /> */}
               </div>
             </div>
           </div>
