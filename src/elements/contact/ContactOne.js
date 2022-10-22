@@ -71,7 +71,14 @@ const ContactOne = () => {
           <ContactForm formStyle="contact-form-1" />
         </div>
         <div className="col-lg-5 mt_md--30 mt_sm--30">
-          <GoogleMapStyle />
+          {/* <GoogleMapStyle /> */}
+          <div className="thumbnail">
+            <img
+              className="w-100"
+              src="./images/contact/contact.png"
+              alt="Contact Images"
+            />
+          </div>
         </div>
       </div>
     </>
